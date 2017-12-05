@@ -1,0 +1,29 @@
+@font-face {
+          font-family: 'Aurora_script';
+          src: url('font/Aurora_script.ttf');
+          font-weight: bold;
+      }
+
+body{
+      background-color: #eee;
+      padding-top: 100px;
+
+    }
+
+.navbar .navbar-header {
+          margin: 0 70px;
+          padding-top: 20px;
+          
+      }
+.navbar .navbar-brand {
+          font-family: Aurora_script;
+          font-size: 56px;
+      }
+.navbar .navbar-collapse{
+      font-size: 18px;
+      font-family: Monaco;
+      color: #49505b;
+      padding: 10px;
+
+
+    }
