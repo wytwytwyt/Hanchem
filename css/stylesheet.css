@@ -1,27 +1,22 @@
-@font-face {
-          font-family: 'Aurora_script';
-          src: url('../font/Aurora_script.ttf');
-          font-weight: bold;
-      }
-
 body{
       background-color: #eee;
       padding-top: 100px;
+      font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 
     }
 
 .navbar .navbar-header {
           margin: 0 70px;
-          padding-top: 20px;
+          padding-top: 10px;
           
       }
 .navbar .navbar-brand {
-          font-family: Aurora_script;
-          font-size: 56px;
+          font-family: monospace;
+          font-size: 36px;
       }
 .navbar .navbar-collapse{
       font-size: 18px;
-      font-family: Monaco;
+      font-family: Monaco,'Palatino Linotype', 'Book Antiqua', Palatino, serif;
       color: #49505b;
       padding: 10px;
 
