@@ -1,24 +1,40 @@
 body{
-      background-color: #eee;
-      padding-top: 100px;
-      font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-
-    }
+    background-color: #eee;
+    position: relative;
+    padding-top: 80px;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+.navbar .navbar-default{
+}
 
 .navbar .navbar-header {
-          margin: 0 70px;
-          padding-top: 10px;
-          
-      }
+    margin: 0 50px;
+    padding-top: 10px;
+}
+
 .navbar .navbar-brand {
-          font-family: monospace;
-          font-size: 36px;
-      }
-.navbar .navbar-collapse{
-      font-size: 18px;
-      font-family: Monaco,'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-      color: #49505b;
-      padding: 10px;
+    font-family: monospace;
+    font-size: 36px;
+}
 
+.navbar .navbar-collapse {
+    font-size: 14px;
+    font-family: Monaco, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #49505b;
+    padding: 10px;
+}
+.panel-body{
+    border-width: 20px;
+}
 
-    }
+#stdphoto{
+    margin-right: 20px;
+    width: 100px;
+    height: 150px;
+}
+#pubphoto{
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
