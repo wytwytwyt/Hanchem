@@ -2,7 +2,7 @@ body{
     background-color: #eee;
     position: relative;
     padding-top: 80px;
-    font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif;
 }
 .navbar .navbar-default{
 }
@@ -13,18 +13,15 @@ body{
 }
 
 .navbar .navbar-brand {
-    font-family: monospace;
+    font-family: times;
     font-size: 36px;
 }
 
 .navbar .navbar-collapse {
-    font-size: 14px;
-    font-family: Monaco, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 16px;
+    font-family: Monaco,  "Microsoft YaHei", Palatino, serif;
     color: #49505b;
     padding: 10px;
-}
-.panel-body{
-    border-width: 20px;
 }
 
 #stdphoto{
@@ -36,5 +33,9 @@ body{
     margin-right: 20px;
     width: 100px;
     height: 100px;
+}
+
+#res-panel{
+    margin-bottom: 80px;
 }
 
